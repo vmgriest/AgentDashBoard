@@ -61,7 +61,7 @@ export default function App() {
           </div>
         )}
 
-        <ActivityFeed events={events} debug={debug} />
+        <ActivityFeed events={events} agents={agents} debug={debug} />
       </div>
     </div>
   );
